@@ -12,8 +12,8 @@ const apiUrl = 'YOUR_HOSTED_API_URL_HERE/';
   providedIn: 'root'
 })
 export class FetchApiDataService {
-  constructor(private http: HttpClient) { 
-  }
+  constructor(private http: HttpClient) { }
+  
   //Making the api call for the user registration endpoint
   public userRegistration(userDetails: any): Observable<any> {
     console.log(userDetails);
