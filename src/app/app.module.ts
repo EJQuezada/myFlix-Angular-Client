@@ -21,6 +21,7 @@ import { UserLoginFormComponent } from './user-login-form/user-login-form.compon
   declarations: [
     AppComponent,
     UserRegistrationFormComponent,
+    UserLoginFormComponent,
   ],
   imports: [
     BrowserModule,
