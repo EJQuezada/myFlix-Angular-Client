@@ -204,16 +204,4 @@ export class FetchApiDataService {
     }
     return throwError(() => newError('Something bad happened. Please try again later.'));
   }
-
-  private handleError(error: HttpErrorResponse): any {
-    if (error.error instanceof ErrorEvent) {
-    console.error('Some error occurred:', error.error.message);
-    } else {
-      console.error(
-        `Error Status code ${error.status}, ` +
-        `Error body is: ${error.error}`
-      );
-    }
-    return throwError(() => newError ('Something bad happened; please try again later.'));
-  }
 }
