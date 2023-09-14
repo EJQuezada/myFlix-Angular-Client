@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 
 
 //Declaring the api url that will provide data for the client app
-const apiUrl = 'https://edgarmovieflix.netlify.app/';
+const apiUrl = 'https://github.com/EJQuezada/my_movie_api';
 
 @Injectable({
   providedIn: 'root'
