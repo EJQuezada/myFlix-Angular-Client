@@ -202,6 +202,6 @@ export class FetchApiDataService {
         `Error Status code ${error.status}, ` +
         `Error body is: ${error.error}`);
     }
-    return throwError(() => newError('Something bad happened. Please try again later.'));
+    return throwError(() => new Error('Something bad happened. Please try again later.'));
   }
 }
