@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myFlix-Angular-client": {
+    "myFlix-Angular-Client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -96,6 +96,14 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/my-flix-angular-client",
+            "netlifyToken": "lO_m6zqJpYIzVigct15qxduMUff1BIU2sG4WyN6Y4TY",
+            "siteId": ""
           }
         }
       }
