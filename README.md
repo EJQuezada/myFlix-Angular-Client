@@ -1,6 +1,23 @@
 # MyFlixAngularClient
 
+This is an Angular App which uses the movie api as a backend. With this app you can register or sign in a user and see a list of movies. The user can also create a list of favorite movies.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+
+## Prerequisites
+
+Installation of 1) Node.js, and 2) Angular CLI
+
+## Technologies Used
+
+* Angular
+* TypeScript
+
+## Installation
+
+ 1) Clone the repository;
+ 2)  Navigate to the project directory in the terminal;
+ 3)   Run npm install to install the necessary dependencies.
 
 ## Development server
 
