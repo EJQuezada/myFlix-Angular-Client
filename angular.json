@@ -104,7 +104,7 @@
           "options": {
             "outputPath": "dist/my-flix-angular-client",
             "netlifyToken": "lO_m6zqJpYIzVigct15qxduMUff1BIU2sG4WyN6Y4TY",
-            "siteId": ""
+            "siteId": "7db23f78-18f4-411f-b81c-523ce044c681"
           }
         }
       }
