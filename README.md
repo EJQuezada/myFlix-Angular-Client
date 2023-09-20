@@ -15,9 +15,9 @@ Installation of 1) Node.js, and 2) Angular CLI
 
 ## Installation
 
-Step 1: Clone the repository;
-Step 2: Navigate to the project directory in the terminal;
-Step 3: Run npm install to install the necessary dependencies.
+ 1) Clone the repository;
+ 2)  Navigate to the project directory in the terminal;
+ 3)   Run npm install to install the necessary dependencies.
 
 ## Development server
 
