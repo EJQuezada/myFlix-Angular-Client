@@ -12,12 +12,16 @@ Installation of 1) Node.js, and 2) Angular CLI
 
 * Angular
 * TypeScript
+* Node.js
+* MongoDB
+* Express.js
+* Netlify
 
 ## Installation
 
  1) Clone the repository;
- 2)  Navigate to the project directory in the terminal;
- 3)   Run npm install to install the necessary dependencies.
+ 2) Navigate to the project directory in the terminal;
+ 3) Run npm install to install the necessary dependencies.
 
 ## Development server
 
@@ -38,6 +42,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Features
+* User Registration
+* User Login
+* Browse movies in database
+* Genre & Director Information
+* Favorite Movies
+* Update User Profile
+* Delete User Account
 
 ## Further help
 
